@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0894E41D41C6D50062C433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0894E31D41C6D50062C433 /* main.m */; };
+		BE0894E71D41C6D50062C433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0894E61D41C6D50062C433 /* AppDelegate.m */; };
+		BE0894EA1D41C6D50062C433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0894E91D41C6D50062C433 /* ViewController.m */; };
+		BE0894ED1D41C6D50062C433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0894EB1D41C6D50062C433 /* Main.storyboard */; };
+		BE0894EF1D41C6D50062C433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0894EE1D41C6D50062C433 /* Assets.xcassets */; };
+		BE0894F21D41C6D50062C433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0894F01D41C6D50062C433 /* LaunchScreen.storyboard */; };
+		BE0894FD1D41C6D50062C433 /* DYProximitySensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0894FC1D41C6D50062C433 /* DYProximitySensorTests.m */; };
+		BE0895081D41C6D50062C433 /* DYProximitySensorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0895071D41C6D50062C433 /* DYProximitySensorUITests.m */; };
+		BE0895171D41F71B0062C433 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0895161D41F71B0062C433 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0894F91D41C6D50062C433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0894D71D41C6D50062C433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0894DE1D41C6D50062C433;
+			remoteInfo = DYProximitySensor;
+		};
+		BE0895041D41C6D50062C433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0894D71D41C6D50062C433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0894DE1D41C6D50062C433;
+			remoteInfo = DYProximitySensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE0894DF1D41C6D50062C433 /* DYProximitySensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYProximitySensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0894E31D41C6D50062C433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE0894E51D41C6D50062C433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE0894E61D41C6D50062C433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE0894E81D41C6D50062C433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE0894E91D41C6D50062C433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE0894EC1D41C6D50062C433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0894EE1D41C6D50062C433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0894F11D41C6D50062C433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE0894F31D41C6D50062C433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0894F81D41C6D50062C433 /* DYProximitySensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYProximitySensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0894FC1D41C6D50062C433 /* DYProximitySensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYProximitySensorTests.m; sourceTree = "<group>"; };
+		BE0894FE1D41C6D50062C433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0895031D41C6D50062C433 /* DYProximitySensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYProximitySensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0895071D41C6D50062C433 /* DYProximitySensorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYProximitySensorUITests.m; sourceTree = "<group>"; };
+		BE0895091D41C6D50062C433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0895151D41F71B0062C433 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		BE0895161D41F71B0062C433 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0894DC1D41C6D50062C433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0894F51D41C6D50062C433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0895001D41C6D50062C433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0894D61D41C6D50062C433 = {
+			isa = PBXGroup;
+			children = (
+				BE0894E11D41C6D50062C433 /* DYProximitySensor */,
+				BE0894FB1D41C6D50062C433 /* DYProximitySensorTests */,
+				BE0895061D41C6D50062C433 /* DYProximitySensorUITests */,
+				BE0894E01D41C6D50062C433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0894E01D41C6D50062C433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0894DF1D41C6D50062C433 /* DYProximitySensor.app */,
+				BE0894F81D41C6D50062C433 /* DYProximitySensorTests.xctest */,
+				BE0895031D41C6D50062C433 /* DYProximitySensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0894E11D41C6D50062C433 /* DYProximitySensor */ = {
+			isa = PBXGroup;
+			children = (
+				BE0894E51D41C6D50062C433 /* AppDelegate.h */,
+				BE0894E61D41C6D50062C433 /* AppDelegate.m */,
+				BE0894E81D41C6D50062C433 /* ViewController.h */,
+				BE0894E91D41C6D50062C433 /* ViewController.m */,
+				BE0895151D41F71B0062C433 /* UIView+Extension.h */,
+				BE0895161D41F71B0062C433 /* UIView+Extension.m */,
+				BE0894EB1D41C6D50062C433 /* Main.storyboard */,
+				BE0894EE1D41C6D50062C433 /* Assets.xcassets */,
+				BE0894F01D41C6D50062C433 /* LaunchScreen.storyboard */,
+				BE0894F31D41C6D50062C433 /* Info.plist */,
+				BE0894E21D41C6D50062C433 /* Supporting Files */,
+			);
+			path = DYProximitySensor;
+			sourceTree = "<group>";
+		};
+		BE0894E21D41C6D50062C433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0894E31D41C6D50062C433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE0894FB1D41C6D50062C433 /* DYProximitySensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0894FC1D41C6D50062C433 /* DYProximitySensorTests.m */,
+				BE0894FE1D41C6D50062C433 /* Info.plist */,
+			);
+			path = DYProximitySensorTests;
+			sourceTree = "<group>";
+		};
+		BE0895061D41C6D50062C433 /* DYProximitySensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0895071D41C6D50062C433 /* DYProximitySensorUITests.m */,
+				BE0895091D41C6D50062C433 /* Info.plist */,
+			);
+			path = DYProximitySensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0894DE1D41C6D50062C433 /* DYProximitySensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE08950C1D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensor" */;
+			buildPhases = (
+				BE0894DB1D41C6D50062C433 /* Sources */,
+				BE0894DC1D41C6D50062C433 /* Frameworks */,
+				BE0894DD1D41C6D50062C433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYProximitySensor;
+			productName = DYProximitySensor;
+			productReference = BE0894DF1D41C6D50062C433 /* DYProximitySensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0894F71D41C6D50062C433 /* DYProximitySensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE08950F1D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensorTests" */;
+			buildPhases = (
+				BE0894F41D41C6D50062C433 /* Sources */,
+				BE0894F51D41C6D50062C433 /* Frameworks */,
+				BE0894F61D41C6D50062C433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0894FA1D41C6D50062C433 /* PBXTargetDependency */,
+			);
+			name = DYProximitySensorTests;
+			productName = DYProximitySensorTests;
+			productReference = BE0894F81D41C6D50062C433 /* DYProximitySensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0895021D41C6D50062C433 /* DYProximitySensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0895121D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensorUITests" */;
+			buildPhases = (
+				BE0894FF1D41C6D50062C433 /* Sources */,
+				BE0895001D41C6D50062C433 /* Frameworks */,
+				BE0895011D41C6D50062C433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0895051D41C6D50062C433 /* PBXTargetDependency */,
+			);
+			name = DYProximitySensorUITests;
+			productName = DYProximitySensorUITests;
+			productReference = BE0895031D41C6D50062C433 /* DYProximitySensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0894D71D41C6D50062C433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DY;
+				TargetAttributes = {
+					BE0894DE1D41C6D50062C433 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BE0894F71D41C6D50062C433 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE0894DE1D41C6D50062C433;
+					};
+					BE0895021D41C6D50062C433 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BE0894DE1D41C6D50062C433;
+					};
+				};
+			};
+			buildConfigurationList = BE0894DA1D41C6D50062C433 /* Build configuration list for PBXProject "DYProximitySensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0894D61D41C6D50062C433;
+			productRefGroup = BE0894E01D41C6D50062C433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0894DE1D41C6D50062C433 /* DYProximitySensor */,
+				BE0894F71D41C6D50062C433 /* DYProximitySensorTests */,
+				BE0895021D41C6D50062C433 /* DYProximitySensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0894DD1D41C6D50062C433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0894F21D41C6D50062C433 /* LaunchScreen.storyboard in Resources */,
+				BE0894EF1D41C6D50062C433 /* Assets.xcassets in Resources */,
+				BE0894ED1D41C6D50062C433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0894F61D41C6D50062C433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0895011D41C6D50062C433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0894DB1D41C6D50062C433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0894EA1D41C6D50062C433 /* ViewController.m in Sources */,
+				BE0894E71D41C6D50062C433 /* AppDelegate.m in Sources */,
+				BE0895171D41F71B0062C433 /* UIView+Extension.m in Sources */,
+				BE0894E41D41C6D50062C433 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0894F41D41C6D50062C433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0894FD1D41C6D50062C433 /* DYProximitySensorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0894FF1D41C6D50062C433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0895081D41C6D50062C433 /* DYProximitySensorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0894FA1D41C6D50062C433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0894DE1D41C6D50062C433 /* DYProximitySensor */;
+			targetProxy = BE0894F91D41C6D50062C433 /* PBXContainerItemProxy */;
+		};
+		BE0895051D41C6D50062C433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0894DE1D41C6D50062C433 /* DYProximitySensor */;
+			targetProxy = BE0895041D41C6D50062C433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0894EB1D41C6D50062C433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0894EC1D41C6D50062C433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0894F01D41C6D50062C433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0894F11D41C6D50062C433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE08950A1D41C6D50062C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE08950B1D41C6D50062C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE08950D1D41C6D50062C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYProximitySensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE08950E1D41C6D50062C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DYProximitySensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE0895101D41C6D50062C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYProximitySensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYProximitySensor.app/DYProximitySensor";
+			};
+			name = Debug;
+		};
+		BE0895111D41C6D50062C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYProximitySensorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYProximitySensor.app/DYProximitySensor";
+			};
+			name = Release;
+		};
+		BE0895131D41C6D50062C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYProximitySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYProximitySensor;
+			};
+			name = Debug;
+		};
+		BE0895141D41C6D50062C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYProximitySensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DY.DYProximitySensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYProximitySensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0894DA1D41C6D50062C433 /* Build configuration list for PBXProject "DYProximitySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE08950A1D41C6D50062C433 /* Debug */,
+				BE08950B1D41C6D50062C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE08950C1D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE08950D1D41C6D50062C433 /* Debug */,
+				BE08950E1D41C6D50062C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE08950F1D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0895101D41C6D50062C433 /* Debug */,
+				BE0895111D41C6D50062C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE0895121D41C6D50062C433 /* Build configuration list for PBXNativeTarget "DYProximitySensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0895131D41C6D50062C433 /* Debug */,
+				BE0895141D41C6D50062C433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0894D71D41C6D50062C433 /* Project object */;
+}
